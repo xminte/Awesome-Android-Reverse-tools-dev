@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>文本处理工具集</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 15px;
+        }
+
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .nav-tab {
+            padding: 8px 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 25px;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .nav-tab:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .nav-tab.active {
+            background: rgba(255, 255, 255, 0.4);
+            border-color: rgba(255, 255, 255, 0.6);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .content {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .input-section, .output-section {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section-header h2 {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .line-count {
+            background: #f0f0f0;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 300px;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            line-height: 1.5;
+            resize: vertical;
+            transition: border-color 0.3s ease;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #4facfe;
+            box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+        }
+
+        .input-textarea {
+            background: #fafafa;
+        }
+
+        .output-textarea {
+            background: #f8f9fa;
+            border-color: #e9ecef;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #56ab2f 0%, #a8e6cf 100%);
+            color: white;
+        }
+
+        .btn-success:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(86, 171, 47, 0.3);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .prefix-section {
+            grid-column: 1 / -1;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #ff6b6b;
+        }
+
+        .prefix-control {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .suffix-control {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .prefix-input {
+            flex: 1;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .prefix-input:focus {
+            outline: none;
+            border-color: #4facfe;
+            box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+        }
+
+        .prefix-label {
+            font-weight: 600;
+            color: #333;
+            min-width: 80px;
+        }
+
+        .instructions {
+            grid-column: 1 / -1;
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            border-left: 4px solid #4facfe;
+        }
+
+        .instructions h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .instructions ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .instructions li {
+            padding: 5px 0;
+            color: #666;
+        }
+
+        .instructions li:before {
+            content: "•";
+            color: #4facfe;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>文本处理工具集</h1>
+            <p>多功能文本处理工具</p>
+            <div class="nav-tabs">
+                <div class="nav-tab active" onclick="showTool('hook-tool')">Hook 类命令</div>
+                <div class="nav-tab" onclick="showTool('hook-method-tool')">Hook 构造函数命令</div>
+                <div class="nav-tab" onclick="showTool('deduplicate-tool')">文本去重</div>
+            </div>
+        </div>
+        
+        <div class="content" id="hook-tool" style="display: block;">
+            <div class="prefix-section">
+                <div class="prefix-control">
+                    <span class="prefix-label">命令前缀:</span>
+                    <input 
+                        type="text" 
+                        id="prefixInput" 
+                        class="prefix-input" 
+                        value="android hooking watch class"
+                        placeholder="输入命令前缀"
+                    >
+                </div>
+                <div class="suffix-control">
+                    <span class="prefix-label">命令后缀:</span>
+                    <input 
+                        type="text" 
+                        id="suffixInput" 
+                        class="prefix-input" 
+                        value=""
+                        placeholder="输入命令后缀"
+                    >
+                </div>
+            </div>
+
+            <div class="input-section">
+                <div class="section-header">
+                    <h2>输入</h2>
+                    <span class="line-count" id="input-line-count">0 行</span>
+                </div>
+                <textarea 
+                    id="inputText" 
+                    class="input-textarea" 
+                    placeholder="请输入要监控的类名，每行一个类名&#10;例如：&#10;com.example.app.MainActivity&#10;android.app.Activity&#10;java.lang.String"
+                    oninput="updateInputLineCount()"
+                ></textarea>
+            </div>
+
+            <div class="output-section">
+                <div class="section-header">
+                    <h2>输出</h2>
+                    <span class="line-count" id="output-line-count">0 行</span>
+                </div>
+                <textarea 
+                    id="outputText" 
+                    class="output-textarea" 
+                    readonly
+                    placeholder="生成的 Frida hook 命令将显示在这里"
+                ></textarea>
+            </div>
+
+            <div class="buttons">
+                <button class="btn btn-primary" onclick="processText()">生成命令</button>
+                <button class="btn btn-success" onclick="exportToTxt()">导出为 TXT</button>
+            </div>
+
+            <div class="instructions">
+                <h3>使用说明</h3>
+                <ul>
+                    <li>在左侧文本框中输入要监控的类名，每行一个</li>
+                    <li>点击"生成命令"按钮，将在右侧生成对应的 Frida hook 命令</li>
+                    <li>点击"导出为 TXT"按钮将输出内容保存为文本文件</li>
+                    <li>生成的命令格式: android hooking watch class &lt;类名&gt;</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content" id="hook-method-tool" style="display: none;">
+            <div class="input-section">
+                <div class="section-header">
+                    <h2>输入</h2>
+                    <span class="line-count" id="method-input-line-count">0 行</span>
+                </div>
+                <textarea 
+                    id="methodInputText" 
+                    class="input-textarea" 
+                    placeholder="请输入要监控的方法名，每行一个方法名&#10;例如：&#10;onCreate&#10;onStart&#10;onDestroy"
+                    oninput="updateMethodInputLineCount()"
+                ></textarea>
+            </div>
+
+            <div class="output-section">
+                <div class="section-header">
+                    <h2>输出</h2>
+                    <span class="line-count" id="method-output-line-count">0 行</span>
+                </div>
+                <textarea 
+                    id="methodOutputText" 
+                    class="output-textarea" 
+                    readonly
+                    placeholder="生成的 Frida hook 方法命令将显示在这里"
+                ></textarea>
+            </div>
+
+            <div class="buttons">
+                <button class="btn btn-primary" onclick="processMethodText()">生成命令</button>
+                <button class="btn btn-success" onclick="exportMethodToTxt()">导出为 TXT</button>
+            </div>
+
+            <div class="instructions">
+                <h3>使用说明</h3>
+                <ul>
+                    <li>在左侧文本框中输入要监控的方法名，每行一个方法名</li>
+                    <li>点击"生成命令"按钮，将在右侧生成对应的 Frida hook 方法命令</li>
+                    <li>点击"导出为 TXT"按钮将输出内容保存为文本文件</li>
+                    <li>生成的命令格式: android hooking watch class_method &lt;方法名&gt;$init</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content" id="deduplicate-tool" style="display: none;">
+            <div class="input-section">
+                <div class="section-header">
+                    <h2>输入</h2>
+                    <span class="line-count" id="dedup-input-line-count">0 行</span>
+                </div>
+                <textarea 
+                    id="dedupInputText" 
+                    class="input-textarea" 
+                    placeholder="请输入要去重的文本内容，每行一条数据&#10;例如：&#10;apple&#10;banana&#10;apple&#10;orange&#10;banana"
+                    oninput="updateDedupInputLineCount()"
+                ></textarea>
+            </div>
+
+            <div class="output-section">
+                <div class="section-header">
+                    <h2>输出（去重后）</h2>
+                    <span class="line-count" id="dedup-output-line-count">0 行</span>
+                </div>
+                <textarea 
+                    id="dedupOutputText" 
+                    class="output-textarea" 
+                    readonly
+                    placeholder="去重后的文本内容将显示在这里"
+                ></textarea>
+            </div>
+
+            <div class="buttons">
+                <button class="btn btn-primary" onclick="deduplicateText()">去重处理</button>
+                <button class="btn btn-success" onclick="exportDedupToTxt()">导出为 TXT</button>
+            </div>
+
+            <div class="instructions">
+                <h3>使用说明</h3>
+                <ul>
+                    <li>在左侧文本框中输入要去重的文本内容，每行一条数据</li>
+                    <li>点击"去重处理"按钮，将在右侧显示去重后的结果</li>
+                    <li>点击"导出为 TXT"按钮将去重结果保存为文本文件</li>
+                    <li>支持去除重复行，保留唯一值</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 工具切换功能
+        function showTool(toolId) {
+            // 隐藏所有工具
+            document.querySelectorAll('.content').forEach(tool => {
+                tool.style.display = 'none';
+            });
+            
+            // 显示选中的工具
+            document.getElementById(toolId).style.display = 'block';
+            
+            // 更新导航标签状态
+            document.querySelectorAll('.nav-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+
+        // Hook 工具功能
+        function updateInputLineCount() {
+            const input = document.getElementById('inputText');
+            const lineCount = input.value.split('\n').filter(line => line.trim() !== '').length;
+            document.getElementById('input-line-count').textContent = lineCount + ' 行';
+        }
+
+        function updateOutputLineCount() {
+            const output = document.getElementById('outputText');
+            const lineCount = output.value.split('\n').filter(line => line.trim() !== '').length;
+            document.getElementById('output-line-count').textContent = lineCount + ' 行';
+        }
+
+        function processText() {
+            const inputText = document.getElementById('inputText').value;
+            const prefix = document.getElementById('prefixInput').value.trim();
+            const suffix = document.getElementById('suffixInput').value.trim();
+            const lines = inputText.split('\n');
+            
+            const outputLines = lines
+                .filter(line => line.trim() !== '')
+                .map(line => {
+                    let command = `${prefix} ${line.trim()}`;
+                    if (suffix) {
+                        command += ` ${suffix}`;
+                    }
+                    return command;
+                });
+            
+            const outputText = outputLines.join('\n');
+            document.getElementById('outputText').value = outputText;
+            
+            updateOutputLineCount();
+        }
+
+        function exportToTxt() {
+            const outputText = document.getElementById('outputText').value;
+            
+            if (!outputText.trim()) {
+                alert('请先生成命令再导出！');
+                return;
+            }
+            
+            const blob = new Blob([outputText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'android_hook_classes.txt';
+            a.style.display = 'none';
+            
+            document.body.appendChild(a);
+            a.click();
+            
+            // 清理
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 100);
+        }
+
+        // 去重工具功能
+        function updateDedupInputLineCount() {
+            const input = document.getElementById('dedupInputText');
+            const lineCount = input.value.split('\n').filter(line => line.trim() !== '').length;
+            document.getElementById('dedup-input-line-count').textContent = lineCount + ' 行';
+        }
+
+        function updateDedupOutputLineCount() {
+            const output = document.getElementById('dedupOutputText');
+            const lineCount = output.value.split('\n').filter(line => line.trim() !== '').length;
+            document.getElementById('dedup-output-line-count').textContent = lineCount + ' 行';
+        }
+
+        function deduplicateText() {
+            const inputText = document.getElementById('dedupInputText').value;
+            const lines = inputText.split('\n');
+            
+            // 去重逻辑：保留非空行，使用 Set 去重，保持原始顺序
+            const uniqueLines = [];
+            const seen = new Set();
+            
+            for (const line of lines) {
+                const trimmedLine = line.trim();
+                if (trimmedLine && !seen.has(trimmedLine)) {
+                    seen.add(trimmedLine);
+                    uniqueLines.push(trimmedLine);
+                }
+            }
+            
+            const outputText = uniqueLines.join('\n');
+            document.getElementById('dedupOutputText').value = outputText;
+            
+            updateDedupOutputLineCount();
+        }
+
+        function exportDedupToTxt() {
+            const outputText = document.getElementById('dedupOutputText').value;
+            
+            if (!outputText.trim()) {
+                alert('请先进行去重处理再导出！');
+                return;
+            }
+            
+            const blob = new Blob([outputText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'deduplicated_text.txt';
+            a.style.display = 'none';
+            
+            document.body.appendChild(a);
+            a.click();
+            
+            // 清理
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 100);
+        }
+
+        // Hook 方法工具功能
+        function updateMethodInputLineCount() {
+            const input = document.getElementById('methodInputText');
+            const lineCount = input.value.split('\n').filter(line => line.trim() !== '').length;
+            document.getElementById('method-input-line-count').textContent = lineCount + ' 行';
+        }
+
+        function updateMethodOutputLineCount() {
+            const output = document.getElementById('methodOutputText');
+            const lineCount = output.value.split('\n').filter(line => line.trim() !== '').length;
+            document.getElementById('method-output-line-count').textContent = lineCount + ' 行';
+        }
+
+        function processMethodText() {
+            const inputText = document.getElementById('methodInputText').value;
+            const lines = inputText.split('\n');
+            
+            const outputLines = lines
+                .filter(line => line.trim() !== '')
+                .map(line => `android hooking watch class_method ${line.trim()}$init`);
+            
+            const outputText = outputLines.join('\n');
+            document.getElementById('methodOutputText').value = outputText;
+            
+            updateMethodOutputLineCount();
+        }
+
+        function exportMethodToTxt() {
+            const outputText = document.getElementById('methodOutputText').value;
+            
+            if (!outputText.trim()) {
+                alert('请先生成命令再导出！');
+                return;
+            }
+            
+            const blob = new Blob([outputText], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'android_hook_constructor_commands.txt';
+            a.style.display = 'none';
+            
+            document.body.appendChild(a);
+            a.click();
+            
+            // 清理
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 100);
+        }
+
+        // 初始化行数显示
+        updateInputLineCount();
+        updateOutputLineCount();
+        updateMethodInputLineCount();
+        updateMethodOutputLineCount();
+        updateDedupInputLineCount();
+        updateDedupOutputLineCount();
+    </script>
+</body>
+</html>

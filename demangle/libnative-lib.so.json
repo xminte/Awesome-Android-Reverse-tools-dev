@@ -1,0 +1,2082 @@
+[
+  {
+    "type": "function",
+    "name": "ll11l1l1ll",
+    "address": "0x6f43015cf0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv117__array_type_infoE",
+    "address": "0x6f43031ed8"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_call_unexpected",
+    "address": "0x6f43018738"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12length_errorD1Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv123__fundamental_type_infoE",
+    "address": "0x6f4303be38"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPDn",
+    "address": "0x6f4303bee8"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_free_exception",
+    "address": "0x6f43017658"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv117__array_type_infoE",
+    "address": "0x6f4303c690"
+  },
+  {
+    "type": "function",
+    "name": "_ZN10__cxxabiv121__isOurExceptionClassEPK17_Unwind_Exception",
+    "address": "0x6f430175ec"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorC2EPKc",
+    "address": "0x6f43017324"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPDs",
+    "address": "0x6f4303c5c8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv129__pointer_to_member_type_infoE",
+    "address": "0x6f4303c8c0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPDu",
+    "address": "0x6f4303c578"
+  },
+  {
+    "type": "function",
+    "name": "_ZnamSt11align_val_tRKSt9nothrow_t",
+    "address": "0x6f4301724c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt10bad_typeidD2Ev",
+    "address": "0x6f4302be34"
+  },
+  {
+    "type": "variable",
+    "name": "__cxa_new_handler",
+    "address": "0x6f4303d100"
+  },
+  {
+    "type": "function",
+    "name": "qppqqp",
+    "address": "0x6f4301424c"
+  },
+  {
+    "type": "function",
+    "name": "o0OoOOOO",
+    "address": "0x6f43015a24"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13bad_exceptionD1Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt15underflow_error",
+    "address": "0x6f43039f60"
+  },
+  {
+    "type": "function",
+    "name": "_ZdlPvm",
+    "address": "0x6f43017160"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt11range_error",
+    "address": "0x6f43039ec8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk117_DeallocateCaller27__do_deallocate_handle_sizeEPvm",
+    "address": "0x6f43012e70"
+  },
+  {
+    "type": "function",
+    "name": "_ZdaPvSt11align_val_t",
+    "address": "0x6f43017288"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorC1ERKS_",
+    "address": "0x6f430173a4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv123__fundamental_type_infoE",
+    "address": "0x6f43031dc0"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorC1EPKc",
+    "address": "0x6f430174c0"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv18GetStringUTFLengthEP8_jstring",
+    "address": "0x6f4301251c"
+  },
+  {
+    "type": "function",
+    "name": "__gxx_personality_v0",
+    "address": "0x6f43017f50"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_throw",
+    "address": "0x6f430176ac"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt12length_error",
+    "address": "0x6f43039e70"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9bad_allocC2Ev",
+    "address": "0x6f43018f34"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12domain_errorD0Ev",
+    "address": "0x6f430190ec"
+  },
+  {
+    "type": "function",
+    "name": "qqppqp",
+    "address": "0x6f430137a8"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv11GetMethodIDEP7_jclassPKcS3_",
+    "address": "0x6f43015b70"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt16invalid_argument",
+    "address": "0x6f4302fe5c"
+  },
+  {
+    "type": "function",
+    "name": "qqppqq",
+    "address": "0x6f43013b74"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv116__enum_type_infoE",
+    "address": "0x6f43031efa"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk111char_traitsIcE6assignERcRKc",
+    "address": "0x6f43013408"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt12out_of_range",
+    "address": "0x6f4302fe82"
+  },
+  {
+    "type": "function",
+    "name": "_ZdlPvmSt11align_val_t",
+    "address": "0x6f43017280"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12length_errorD2Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt8bad_cast",
+    "address": "0x6f4303c978"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv121__vmi_class_type_infoE",
+    "address": "0x6f4303c7e8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt9bad_alloc",
+    "address": "0x6f43039c68"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt14set_unexpectedPFvvE",
+    "address": "0x6f43019460"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt13bad_exception4whatEv",
+    "address": "0x6f43018f28"
+  },
+  {
+    "type": "function",
+    "name": "_ZdlPv",
+    "address": "0x6f43017158"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorC2ERKS_",
+    "address": "0x6f43017540"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt16invalid_argument",
+    "address": "0x6f43039e30"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_uncaught_exceptions",
+    "address": "0x6f43017d00"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_erroraSERKS_",
+    "address": "0x6f430173d4"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+    "address": "0x6f43017434"
+  },
+  {
+    "type": "function",
+    "name": "_ZdlPvSt11align_val_tRKSt9nothrow_t",
+    "address": "0x6f4301727c"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_current_exception_type",
+    "address": "0x6f4301798c"
+  },
+  {
+    "type": "function",
+    "name": "Java_com_example_demoso1_MainActivity_init",
+    "address": "0x6f4301298c"
+  },
+  {
+    "type": "function",
+    "name": "_Z14stringFromJNI2P7_JNIEnvP7_jclass",
+    "address": "0x6f43012a00"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13bad_exceptionD2Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv12NewStringUTFEPKc",
+    "address": "0x6f43012378"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIa",
+    "address": "0x6f4303c068"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt10unexpectedv",
+    "address": "0x6f43017ebc"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIb",
+    "address": "0x6f4303bf28"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv121__vmi_class_type_infoE",
+    "address": "0x6f43031f40"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt6__ndk121__basic_string_commonILb1EE20__throw_length_errorEv",
+    "address": "0x6f43013148"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIc",
+    "address": "0x6f4303bfc8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTId",
+    "address": "0x6f4303c478"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIe",
+    "address": "0x6f4303c4c8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIf",
+    "address": "0x6f4303c428"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIg",
+    "address": "0x6f4303c518"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv129__pointer_to_member_type_infoE",
+    "address": "0x6f43031d7a"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIh",
+    "address": "0x6f4303c018"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIi",
+    "address": "0x6f4303c158"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_rethrow_primary_exception",
+    "address": "0x6f43017b4c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9type_infoD0Ev",
+    "address": "0x6f4302bdd4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIj",
+    "address": "0x6f4303c1a8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt15underflow_error",
+    "address": "0x6f4302fec8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIl",
+    "address": "0x6f4303c1f8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv120__si_class_type_infoE",
+    "address": "0x6f4303c780"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIm",
+    "address": "0x6f4303c248"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12domain_errorD1Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "function",
+    "name": "_ZnwmRKSt9nothrow_t",
+    "address": "0x6f430170fc"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIn",
+    "address": "0x6f4303c338"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE10__align_itILm16EEEmm",
+    "address": "0x6f430135d8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt8bad_cast",
+    "address": "0x6f4303c8f8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt10bad_typeid",
+    "address": "0x6f4303c990"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt8bad_castD0Ev",
+    "address": "0x6f4302bdf0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIo",
+    "address": "0x6f4303c388"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv21ReleaseStringUTFCharsEP8_jstringPKc",
+    "address": "0x6f43011fd8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9exceptionD0Ev",
+    "address": "0x6f43018f14"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt10bad_typeidC1Ev",
+    "address": "0x6f4302be20"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKa",
+    "address": "0x6f43031e26"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt10bad_typeid",
+    "address": "0x6f43031f9d"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKb",
+    "address": "0x6f43031e02"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIs",
+    "address": "0x6f4303c0b8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKc",
+    "address": "0x6f43031e14"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIt",
+    "address": "0x6f4303c108"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt13set_terminatePFvvE",
+    "address": "0x6f43019488"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JavaVM6GetEnvEPPvi",
+    "address": "0x6f43012c04"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKd",
+    "address": "0x6f43031e9e"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEC2IDnEEPKc",
+    "address": "0x6f43012320"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKe",
+    "address": "0x6f43031ea7"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt17__throw_bad_allocv",
+    "address": "0x6f43017064"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIv",
+    "address": "0x6f4303be88"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorC2EPKc",
+    "address": "0x6f430174c0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKf",
+    "address": "0x6f43031e95"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKg",
+    "address": "0x6f43031eb0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIw",
+    "address": "0x6f4303bf78"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPa",
+    "address": "0x6f43031e23"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt20bad_array_new_length",
+    "address": "0x6f4302fe22"
+  },
+  {
+    "type": "function",
+    "name": "_ZnamRKSt9nothrow_t",
+    "address": "0x6f4301712c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt16invalid_argument",
+    "address": "0x6f43039e08"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKh",
+    "address": "0x6f43031e1d"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt12length_error",
+    "address": "0x6f43039e48"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPb",
+    "address": "0x6f43031dff"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIx",
+    "address": "0x6f4303c298"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIy",
+    "address": "0x6f4303c2e8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPc",
+    "address": "0x6f43031e11"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKi",
+    "address": "0x6f43031e41"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKj",
+    "address": "0x6f43031e4a"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPd",
+    "address": "0x6f43031e9b"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv121__vmi_class_type_infoE",
+    "address": "0x6f4303c838"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPe",
+    "address": "0x6f43031ea4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv123__fundamental_type_infoE",
+    "address": "0x6f4303be70"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt10bad_typeid4whatEv",
+    "address": "0x6f4302be5c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKl",
+    "address": "0x6f43031e53"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPf",
+    "address": "0x6f43031e92"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt8bad_cast4whatEv",
+    "address": "0x6f4302be14"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt20bad_array_new_lengthD0Ev",
+    "address": "0x6f43018f6c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKm",
+    "address": "0x6f43031e5c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPg",
+    "address": "0x6f43031ead"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv117__class_type_infoE",
+    "address": "0x6f4303c730"
+  },
+  {
+    "type": "function",
+    "name": "o000OO0O",
+    "address": "0x6f430158f4"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt14overflow_errorD0Ev",
+    "address": "0x6f430192b8"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt9terminatev",
+    "address": "0x6f43017e64"
+  },
+  {
+    "type": "function",
+    "name": "Java_com_example_demoso1_MainActivity_myfirstjni",
+    "address": "0x6f43012554"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKn",
+    "address": "0x6f43031e77"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPh",
+    "address": "0x6f43031e1a"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv117__pbase_type_infoE",
+    "address": "0x6f43031d0f"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt13bad_exception",
+    "address": "0x6f43039d18"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPi",
+    "address": "0x6f43031e3e"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt9type_info",
+    "address": "0x6f43031f84"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKo",
+    "address": "0x6f43031e80"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPj",
+    "address": "0x6f43031e47"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv120__function_type_infoE",
+    "address": "0x6f4303c6a8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPl",
+    "address": "0x6f43031e50"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv117__pbase_type_infoE",
+    "address": "0x6f4303bda0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPm",
+    "address": "0x6f43031e59"
+  },
+  {
+    "type": "function",
+    "name": "_ZnwmSt11align_val_t",
+    "address": "0x6f43017170"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv116__shim_type_infoE",
+    "address": "0x6f4303bd70"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKs",
+    "address": "0x6f43031e2f"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPn",
+    "address": "0x6f43031e74"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKt",
+    "address": "0x6f43031e38"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPo",
+    "address": "0x6f43031e7d"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt14get_unexpectedv",
+    "address": "0x6f43017e54"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKv",
+    "address": "0x6f43031ded"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt9exception",
+    "address": "0x6f4302fdf6"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKw",
+    "address": "0x6f43031e0b"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKx",
+    "address": "0x6f43031e65"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPs",
+    "address": "0x6f43031e2c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt20bad_array_new_length4whatEv",
+    "address": "0x6f43018f70"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKy",
+    "address": "0x6f43031e6e"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPt",
+    "address": "0x6f43031e35"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_increment_exception_refcount",
+    "address": "0x6f43017abc"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv12NewByteArrayEi",
+    "address": "0x6f4301599c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPv",
+    "address": "0x6f43031dea"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPw",
+    "address": "0x6f43031e08"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk111char_traitsIcE4copyEPcPKcm",
+    "address": "0x6f4301332c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPx",
+    "address": "0x6f43031e62"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9type_infoD1Ev",
+    "address": "0x6f4302bdd0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPy",
+    "address": "0x6f43031e6b"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6__initEPKcm",
+    "address": "0x6f43012f60"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12domain_errorD2Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt13bad_exception",
+    "address": "0x6f4302fe03"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt8bad_castD1Ev",
+    "address": "0x6f4302bdec"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorC1ERKS_",
+    "address": "0x6f43017540"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9exceptionD1Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt12length_error",
+    "address": "0x6f4302fe71"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt10bad_typeidC2Ev",
+    "address": "0x6f4302be20"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIDh",
+    "address": "0x6f4303c3d8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIDi",
+    "address": "0x6f4303c608"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPDh",
+    "address": "0x6f43031e87"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPDi",
+    "address": "0x6f43031ecf"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_uncaught_exception",
+    "address": "0x6f43017cd8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorD0Ev",
+    "address": "0x6f43019088"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv116__shim_type_infoE",
+    "address": "0x6f4303be00"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIDn",
+    "address": "0x6f4303bed8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPDn",
+    "address": "0x6f43031df4"
+  },
+  {
+    "type": "function",
+    "name": "_ZdaPvmSt11align_val_t",
+    "address": "0x6f43017290"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk117_DeallocateCaller9__do_callEPv",
+    "address": "0x6f43012e98"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIDs",
+    "address": "0x6f4303c5b8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt20bad_array_new_lengthD1Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt10bad_typeid",
+    "address": "0x6f4303c920"
+  },
+  {
+    "type": "function",
+    "name": "_ZdaPvRKSt9nothrow_t",
+    "address": "0x6f43017168"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt14overflow_errorD1Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "function",
+    "name": "Java_com_example_demoso1_MainActivity_myfirstjniJNI",
+    "address": "0x6f43012448"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIDu",
+    "address": "0x6f4303c568"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPDs",
+    "address": "0x6f43031ec3"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSa",
+    "address": "0x6f43031e21"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv119__pointer_type_infoE",
+    "address": "0x6f4303bdb8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt15underflow_errorD0Ev",
+    "address": "0x6f43019314"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPDu",
+    "address": "0x6f43031eb7"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt14overflow_error",
+    "address": "0x6f43039f20"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSb",
+    "address": "0x6f43031dfd"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv9FindClassEPKc",
+    "address": "0x6f43012260"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSc",
+    "address": "0x6f43031e0f"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSd",
+    "address": "0x6f43031e99"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9bad_allocD0Ev",
+    "address": "0x6f43018f48"
+  },
+  {
+    "type": "function",
+    "name": "bbddbbdbb",
+    "address": "0x6f43015498"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSe",
+    "address": "0x6f43031ea2"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSf",
+    "address": "0x6f43031e90"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSg",
+    "address": "0x6f43031eab"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt13runtime_error",
+    "address": "0x6f4302fea3"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSh",
+    "address": "0x6f43031e18"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSi",
+    "address": "0x6f43031e3c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv119__pointer_type_infoE",
+    "address": "0x6f43031d31"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSj",
+    "address": "0x6f43031e45"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_rethrow",
+    "address": "0x6f430179d8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt12domain_error",
+    "address": "0x6f43039df0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSl",
+    "address": "0x6f43031e4e"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSm",
+    "address": "0x6f43031e57"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt9type_info",
+    "address": "0x6f4303c968"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_end_catch",
+    "address": "0x6f43017860"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv120__si_class_type_infoE",
+    "address": "0x6f4303c7d0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSn",
+    "address": "0x6f43031e72"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk111char_traitsIcE6lengthEPKc",
+    "address": "0x6f43013094"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSo",
+    "address": "0x6f43031e7b"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_erroraSERKS_",
+    "address": "0x6f43017570"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt13get_terminatev",
+    "address": "0x6f43017ed4"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv20GetStaticObjectFieldEP7_jclassP9_jfieldID",
+    "address": "0x6f430122e0"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9type_infoD2Ev",
+    "address": "0x6f4302bdd0"
+  },
+  {
+    "type": "variable",
+    "name": "__cxa_unexpected_handler",
+    "address": "0x6f4303d010"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt9bad_alloc",
+    "address": "0x6f4302fe15"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt15set_new_handlerPFvvE",
+    "address": "0x6f43017f24"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSs",
+    "address": "0x6f43031e2a"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSt",
+    "address": "0x6f43031e33"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorD0Ev",
+    "address": "0x6f43018fd0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt9exception",
+    "address": "0x6f43039ce0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt13runtime_error",
+    "address": "0x6f43039ef0"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt8bad_castD2Ev",
+    "address": "0x6f4302bdec"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSv",
+    "address": "0x6f43031de8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9exceptionD2Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+    "address": "0x6f43017298"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSw",
+    "address": "0x6f43031e06"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv117__array_type_infoE",
+    "address": "0x6f4303c658"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11range_errorD0Ev",
+    "address": "0x6f4301925c"
+  },
+  {
+    "type": "function",
+    "name": "__dynamic_cast",
+    "address": "0x6f4302b098"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12out_of_rangeD0Ev",
+    "address": "0x6f43019200"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSx",
+    "address": "0x6f43031e60"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSy",
+    "address": "0x6f43031e69"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt8bad_cast",
+    "address": "0x6f43031f91"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorD1Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "function",
+    "name": "bdddbddbb",
+    "address": "0x6f430156c4"
+  },
+  {
+    "type": "variable",
+    "name": "__cxa_terminate_handler",
+    "address": "0x6f4303d008"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv120__function_type_infoE",
+    "address": "0x6f4303bdd0"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt20bad_array_new_lengthD2Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "function",
+    "name": "_Z5r0addii",
+    "address": "0x6f430120b4"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt14overflow_errorD2Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt16invalid_argumentD0Ev",
+    "address": "0x6f43019148"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_allocate_exception",
+    "address": "0x6f4301760c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt15underflow_errorD1Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv120__si_class_type_infoE",
+    "address": "0x6f43031f1b"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9bad_allocD1Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "function",
+    "name": "_Z8method02P7_JNIEnvP8_jobjectP8_jstring",
+    "address": "0x6f43011efc"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv116__enum_type_infoE",
+    "address": "0x6f4303c718"
+  },
+  {
+    "type": "function",
+    "name": "_ZdaPv",
+    "address": "0x6f43017164"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt11logic_error4whatEv",
+    "address": "0x6f4301902c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv117__class_type_infoE",
+    "address": "0x6f43031ced"
+  },
+  {
+    "type": "function",
+    "name": "_ZN10__cxxabiv119__getExceptionClassEPK17_Unwind_Exception",
+    "address": "0x6f430175e4"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_get_globals",
+    "address": "0x6f43017d20"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk117__compressed_pairINS_12basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE5__repES5_EC2ILb1EvEEv",
+    "address": "0x6f43012f2c"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_get_exception_ptr",
+    "address": "0x6f430177c4"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv18SetByteArrayRegionEP11_jbyteArrayiiPKa",
+    "address": "0x6f430159d4"
+  },
+  {
+    "type": "function",
+    "name": "_Z8method01P7_JNIEnvP7_jclassP8_jstring",
+    "address": "0x6f43012018"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt14overflow_error",
+    "address": "0x6f43039f48"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_pure_virtual",
+    "address": "0x6f4302be68"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorD1Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKDh",
+    "address": "0x6f4303c408"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKDi",
+    "address": "0x6f4303c638"
+  },
+  {
+    "type": "function",
+    "name": "_Znwm",
+    "address": "0x6f43017098"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv120__function_type_infoE",
+    "address": "0x6f43031d55"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11range_errorD1Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv17GetStringUTFCharsEP8_jstringPh",
+    "address": "0x6f43011f98"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12out_of_rangeD1Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv14DeleteLocalRefEP8_jobject",
+    "address": "0x6f43015cb8"
+  },
+  {
+    "type": "function",
+    "name": "bbbddbdbb",
+    "address": "0x6f430155dc"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt11logic_error",
+    "address": "0x6f4302fe4c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt12domain_error",
+    "address": "0x6f43039db0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKDn",
+    "address": "0x6f4303bf08"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv119__pointer_type_infoE",
+    "address": "0x6f4303c888"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorD2Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt15underflow_error",
+    "address": "0x6f43039f88"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_decrement_exception_refcount",
+    "address": "0x6f4301793c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv116__enum_type_infoE",
+    "address": "0x6f4303c6e0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt9bad_alloc",
+    "address": "0x6f43039d30"
+  },
+  {
+    "type": "function",
+    "name": "ll11lll11l",
+    "address": "0x6f43015f78"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_allocate_dependent_exception",
+    "address": "0x6f43017674"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKDs",
+    "address": "0x6f4303c5e8"
+  },
+  {
+    "type": "function",
+    "name": "_ZnamSt11align_val_t",
+    "address": "0x6f43017248"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKDu",
+    "address": "0x6f4303c598"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt20bad_array_new_length",
+    "address": "0x6f43039d48"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_demangle",
+    "address": "0x6f430195ec"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKDh",
+    "address": "0x6f43031e8b"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKDi",
+    "address": "0x6f43031ed3"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt9exception4whatEv",
+    "address": "0x6f43018f18"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt16invalid_argumentD1Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt15underflow_errorD2Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "function",
+    "name": "_ZSt15get_new_handlerv",
+    "address": "0x6f43017f40"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt8bad_castC1Ev",
+    "address": "0x6f4302bdd8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9bad_allocD2Ev",
+    "address": "0x6f43018f10"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKDn",
+    "address": "0x6f43031df8"
+  },
+  {
+    "type": "function",
+    "name": "_ZdlPvRKSt9nothrow_t",
+    "address": "0x6f4301715c"
+  },
+  {
+    "type": "function",
+    "name": "qqqpqp",
+    "address": "0x6f43014018"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_deleted_virtual",
+    "address": "0x6f4302be7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv129__pointer_to_member_type_infoE",
+    "address": "0x6f4303bde8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt10bad_typeidD0Ev",
+    "address": "0x6f4302be38"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt11range_error",
+    "address": "0x6f4302fe93"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKDs",
+    "address": "0x6f43031ec7"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt13bad_exception",
+    "address": "0x6f43039cf0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSPKDu",
+    "address": "0x6f43031ebb"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIN10__cxxabiv117__class_type_infoE",
+    "address": "0x6f4303bd88"
+  },
+  {
+    "type": "function",
+    "name": "_Z17detect_frida_loopPv",
+    "address": "0x6f43012588"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt9bad_alloc4whatEv",
+    "address": "0x6f43018f4c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt20bad_array_new_lengthC1Ev",
+    "address": "0x6f43018f58"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSDh",
+    "address": "0x6f43031e84"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorD2Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSDi",
+    "address": "0x6f43031ecc"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv16GetStaticFieldIDEP7_jclassPKcS3_",
+    "address": "0x6f43012298"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorC1EPKc",
+    "address": "0x6f43017324"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11range_errorD2Ev",
+    "address": "0x6f43019034"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12out_of_rangeD2Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSDn",
+    "address": "0x6f43031df1"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_free_dependent_exception",
+    "address": "0x6f430176a8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSN10__cxxabiv116__shim_type_infoE",
+    "address": "0x6f43031ccc"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorC2ERKS_",
+    "address": "0x6f430173a4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKa",
+    "address": "0x6f4303c098"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv9NewObjectEP7_jclassP10_jmethodIDz",
+    "address": "0x6f43015bb8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKb",
+    "address": "0x6f4303bf58"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt12out_of_range",
+    "address": "0x6f43039eb0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKc",
+    "address": "0x6f4303bff8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKd",
+    "address": "0x6f4303c4a8"
+  },
+  {
+    "type": "function",
+    "name": "_ZdaPvSt11align_val_tRKSt9nothrow_t",
+    "address": "0x6f4301728c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSDs",
+    "address": "0x6f43031ec0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKe",
+    "address": "0x6f4303c4f8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKf",
+    "address": "0x6f4303c458"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSDu",
+    "address": "0x6f43031eb4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVN10__cxxabiv117__pbase_type_infoE",
+    "address": "0x6f4303c850"
+  },
+  {
+    "type": "function",
+    "name": "_ZnwmSt11align_val_tRKSt9nothrow_t",
+    "address": "0x6f4301721c"
+  },
+  {
+    "type": "function",
+    "name": "_ZNKSt13runtime_error4whatEv",
+    "address": "0x6f430190e4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKg",
+    "address": "0x6f4303c548"
+  },
+  {
+    "type": "variable",
+    "name": "_ZSt7nothrow",
+    "address": "0x6f4302fb64"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKh",
+    "address": "0x6f4303c048"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_current_primary_exception",
+    "address": "0x6f43017ad8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt12length_errorD0Ev",
+    "address": "0x6f430191a4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt11logic_error",
+    "address": "0x6f43039dd8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKi",
+    "address": "0x6f4303c188"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt20bad_array_new_length",
+    "address": "0x6f43039c90"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13runtime_errorC2ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+    "address": "0x6f43017434"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKj",
+    "address": "0x6f4303c1d8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt16invalid_argumentD2Ev",
+    "address": "0x6f43018f7c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPa",
+    "address": "0x6f4303c078"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKl",
+    "address": "0x6f4303c228"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPb",
+    "address": "0x6f4303bf38"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKm",
+    "address": "0x6f4303c278"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt14overflow_error",
+    "address": "0x6f4302feb5"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKn",
+    "address": "0x6f4303c368"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPc",
+    "address": "0x6f4303bfd8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKo",
+    "address": "0x6f4303c3b8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPd",
+    "address": "0x6f4303c488"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt8bad_castC2Ev",
+    "address": "0x6f4302bdd8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPe",
+    "address": "0x6f4303c4d8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPf",
+    "address": "0x6f4303c438"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt10bad_typeidD1Ev",
+    "address": "0x6f4302be34"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPg",
+    "address": "0x6f4303c528"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKs",
+    "address": "0x6f4303c0e8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt12out_of_range",
+    "address": "0x6f43039e88"
+  },
+  {
+    "type": "function",
+    "name": "qpppqp",
+    "address": "0x6f43013cc0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPh",
+    "address": "0x6f4303c028"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKt",
+    "address": "0x6f4303c138"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt13bad_exceptionD0Ev",
+    "address": "0x6f43018f24"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPi",
+    "address": "0x6f4303c168"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPj",
+    "address": "0x6f4303c1b8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKv",
+    "address": "0x6f4303beb8"
+  },
+  {
+    "type": "function",
+    "name": "_Znam",
+    "address": "0x6f43017128"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKw",
+    "address": "0x6f4303bfa8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPl",
+    "address": "0x6f4303c208"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv15RegisterNativesEP7_jclassPK15JNINativeMethodi",
+    "address": "0x6f43012c44"
+  },
+  {
+    "type": "function",
+    "name": "Java_com_example_demoso1_MainActivity_stringFromJNI",
+    "address": "0x6f4301212c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKx",
+    "address": "0x6f4303c2c8"
+  },
+  {
+    "type": "function",
+    "name": "_ZdlPvSt11align_val_t",
+    "address": "0x6f43017278"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPm",
+    "address": "0x6f4303c258"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPKy",
+    "address": "0x6f4303c318"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTSSt12domain_error",
+    "address": "0x6f4302fe3b"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPn",
+    "address": "0x6f4303c348"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt6__ndk112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev",
+    "address": "0x6f430123d4"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPo",
+    "address": "0x6f4303c398"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt20bad_array_new_lengthC2Ev",
+    "address": "0x6f43018f58"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPs",
+    "address": "0x6f4303c0c8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTISt11range_error",
+    "address": "0x6f43039f08"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt9type_info",
+    "address": "0x6f4303c948"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPt",
+    "address": "0x6f4303c118"
+  },
+  {
+    "type": "function",
+    "name": "JNI_OnLoad",
+    "address": "0x6f43012b34"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_begin_catch",
+    "address": "0x6f430177cc"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPv",
+    "address": "0x6f4303be98"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPw",
+    "address": "0x6f4303bf88"
+  },
+  {
+    "type": "function",
+    "name": "__cxa_get_globals_fast",
+    "address": "0x6f43017db0"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt9bad_allocC1Ev",
+    "address": "0x6f43018f34"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPx",
+    "address": "0x6f4303c2a8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPy",
+    "address": "0x6f4303c2f8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt11logic_error",
+    "address": "0x6f43039d60"
+  },
+  {
+    "type": "function",
+    "name": "_ZN10__cxxabiv119__setExceptionClassEP17_Unwind_Exceptionm",
+    "address": "0x6f430175d0"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt9exception",
+    "address": "0x6f43039cb8"
+  },
+  {
+    "type": "function",
+    "name": "_ZNSt11logic_errorC1ERKNSt6__ndk112basic_stringIcNS0_11char_traitsIcEENS0_9allocatorIcEEEE",
+    "address": "0x6f43017298"
+  },
+  {
+    "type": "function",
+    "name": "_ZdaPvm",
+    "address": "0x6f4301716c"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPDh",
+    "address": "0x6f4303c3e8"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTIPDi",
+    "address": "0x6f4303c618"
+  },
+  {
+    "type": "variable",
+    "name": "_ZTVSt13runtime_error",
+    "address": "0x6f43039d88"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv15RegisterNativesEP7_jclassPK15JNINativeMethodi",
+    "address": "0x76008d13c4"
+  },
+  {
+    "type": "function",
+    "name": "init",
+    "address": "0x76008d1264"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv9FindClassEPKc",
+    "address": "0x76008d140c"
+  },
+  {
+    "type": "function",
+    "name": "JNI_OnLoad",
+    "address": "0x76008d12cc"
+  },
+  {
+    "type": "function",
+    "name": "_Z17detect_frida_loopPv",
+    "address": "0x76008d0e9c"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JavaVM6GetEnvEPPvi",
+    "address": "0x76008d1384"
+  },
+  {
+    "type": "function",
+    "name": "_ZN7_JNIEnv17GetStringUTFCharsEP8_jstringPh",
+    "address": "0x76008d0e5c"
+  },
+  {
+    "type": "function",
+    "name": "Java_com_kanxue_pediy1_MainActivity_stringFromJNI",
+    "address": "0x76008d0dcc"
+  }
+]
