@@ -20,7 +20,7 @@ memory list exports libmynativeapplication1.so --json exports.json
 效果如下：
 
 
-![image-20260403115637013](png\demangle.png)
+![image-20260403115637013](png/demangle.png)
 
 
 
