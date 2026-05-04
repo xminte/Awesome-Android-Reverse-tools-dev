@@ -5,7 +5,7 @@
    - Hook指令处理工具集：提供一系列工具，用于生成Hook指令、去重等操作，简化Hook过程。
    - RPC + Socket自吐 + 在电脑端输出抓包内容：实现RPC通信和Socket自吐功能，并在电脑端输出抓包内容，便于实时监控和分析。
 
-
+<br><br>
 
 # 目录
 
@@ -14,10 +14,10 @@
 - [3. RPC + Socket自吐 + 在电脑端输出抓包内容](#rpc-socket)
 
 
-
+<br><br>
 
 <a id="demangle"></a>
-## 批量Demangle处理脚本
+# 1. 批量Demangle处理脚本
 
 使用方法：
 
@@ -45,7 +45,7 @@ memory list exports libexample.so --json exports.json
 <br><br>
 
 <a id="hook-tools"></a>
-## 2. Hook指令处理工具集(去重、Hook指令生成等)
+# 2. Hook指令处理工具集(去重、Hook指令生成等)
 
 使用方法：
 
@@ -67,7 +67,7 @@ memory list exports libexample.so --json exports.json
 <br><br>
 
 <a id="rpc-socket"></a>
-## 3. RPC +Socket自吐 + 在电脑端输出抓包内容
+# 3. RPC +Socket自吐 + 在电脑端输出抓包内容
 
 
 
