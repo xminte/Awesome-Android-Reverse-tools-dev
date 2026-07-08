@@ -12,6 +12,7 @@
 - [1. 批量Demangle处理脚本](#demangle)
 - [2. Hook指令处理工具集](#hook-tools)
 - [3. RPC + Socket自吐 + 在电脑端输出抓包内容](#rpc-socket)
+- [4. eCapture抓包Burp插件](#ecapture)
 
 
 <br><br>
@@ -84,4 +85,62 @@ memory list exports libexample.so --json exports.json
 
 
 <br>
-PS：工具后续会继续完善和增加功能，敬请期待！欢迎大家提出意见和建议！
+
+<a id="ecapture"></a>
+
+# 4. eCapture抓包Burp插件
+
+## Build
+
+1. 如果要自己编译
+
+```bash
+用Idea打开eCaptureBurp-main文件夹下，打开Bash终端，执行
+
+./gradlew clean shadowJar
+
+检查编译结果
+
+ls build/libs
+jar tf build/libs/*all*.jar | grep java_websocket
+
+- 如果遇到报错，可以让AI帮忙进行检查
+```
+
+2. 如果不想自己编译，直接下载编译好的jar包，放到Burp的Extensions中即可.
+
+![alt text](png/build.png)
+
+<br>
+
+##  Usage
+
+### 1. Start eCapture
+
+```bash
+sudo ./ecapture tls --ecaptureq=ws://0.0.0.0:28257 -p <pidof process> 
+```
+
+### 2. Connect in Burp Suite
+
+1. 输入 WebSocket URL (`ws://<ip of phone> :28257/`)
+2. 点击 **Connect** 按钮
+3. 绿色的 **Connected** 状态表示连接成功
+4. 点击 **Export JSON** 按钮保存抓包结果为 JSON 文件
+
+
+效果如下：
+
+![alt text](png/ecapture.png)
+
+
+![alt text](png/JSON.png)
+
+本工具参考的是zitoxxx的[eCapture Burp Suite Extension](https://github.com/zitoxxx/eCaptureBurp)项目，增加了导出JSON功能，并且修复了build的一些bug，方便在Burp中使用。
+
+
+<br>
+
+
+# 后续
+工具后续会继续完善和增加功能，敬请期待！欢迎大家提出意见和建议！
