@@ -4,6 +4,7 @@
    - 批量Demangle处理脚本：用于将C++函数名从混淆状态转换为可读状态，方便分析和调试。
    - Hook指令处理工具集：提供一系列工具，用于生成Hook指令、去重等操作，简化Hook过程。
    - RPC + Socket自吐 + 在电脑端输出抓包内容：实现RPC通信和Socket自吐功能，并在电脑端输出抓包内容，便于实时监控和分析。
+   - eCapture抓包Burp插件: 将eCapture抓到的数据包，导入BurpSuite中，便于查看数据包的内容
 
 <br><br>
 
