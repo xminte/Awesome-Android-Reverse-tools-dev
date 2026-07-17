@@ -108,9 +108,12 @@ jar tf build/libs/*all*.jar | grep java_websocket
 - 如果遇到报错，可以让AI帮忙进行检查
 ```
 
-2. 如果不想自己编译，直接下载编译好的jar包，放到Burp的Extensions中即可.
-
 ![alt text](png/build.png)
+
+2. 如果不想自己编译，直接下载编译好的jar包，放到Burp的Extensions中即可.
+   https://github.com/xm1nutes/Awesome-Android-Reverse-tools-dev/releases/tag/1.0.0
+
+
 
 <br>
 
